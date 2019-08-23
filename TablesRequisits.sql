@@ -3,7 +3,7 @@ Projecto - Tabelas
 
 	Nomes das tabelas como t_nome_tabela (t_ como prefixo)
 		Todas as colunas PK devem ser "ID number"
-	Tabela de log (timestamp, log_text, user)
+	Tabela de log (timestamp, log_text, user) -- deve ser criado um procedure autonomous_transaction 
 	
 Comments
 Constraints
@@ -22,3 +22,5 @@ Triggers
 	AFTER INSERT OR UPDATE OR DELETE que popula uma tabela de log com a operação, time e user 
 
 *Function para obtenção da sequencia (recebe o nome da tabela e devolve o próximo numero da sequencia associada)
+
+
