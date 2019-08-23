@@ -1,8 +1,6 @@
-Projecto 
+Projecto - Tabelas 
 
 
-
-Tabelas 
 	Nomes das tabelas como t_nome_tabela (t_ como prefixo)
 		Todas as colunas PK devem ser "ID number"
 	Tabela de log (timestamp, log_text, user)
